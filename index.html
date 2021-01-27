@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    
+    <script src="https://kit.fontawesome.com/981992d341.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <section id="navigation">
+        <div class="bar">
+        <div class="nav-menu">
+            <ul>
+                <li><a href="#top">Home</a></li>  
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills-hobbies">Skills & Hobbies</a></li>
+                <li><a href="#quotes">Quotes</a></li>
+                <li><a href="#portfolio">Porfolio</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
+        </div>    
+        <a href="#top"><img class="logo" src="assets/images/Logo2.png" alt="logo"></a>
+        <i class="fas fa-bars fa-2x"></i>
+        </div>
+
+    </section>
+
+    <!-- Top Section -->
+    <section id='top'>
+        <div class='intro-header'>
+            <h1>Hi, my name is Lukas.<br> I am an aspiring Web Developer in Hong Kong.</h1>
+        </div>
+        <div class="video">
+            <h1><a href="" class="typewrite" data-period="2000" data-type='[ "I did not create this video.", "But I did create this website.", "And I can also create yours." ]'>
+                <span class="wrap"></span>
+              </a></h1>
+            <video width="900" loop autoplay muted>
+                <source src="assets/videos/yt1s.com - Magic of Hong Kong Mindblowing cyberpunk drone video of the craziest Asias city by Timelabpro_1080p.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+    </section>
+        
+
+
+    <!-- About Me -->
+
+    <section id="about-me">
+        <div class="aboutme-inner row container-fluid">
+            <div class="iDo col-md-6 intro-text">
+                <p>Learn more about me and how I can help you before we work together.</p>
+            </div>
+            <div class="collapsible-menu col-md-6">
+                <h3>Who I Am    <i class="fas fa-angle-down"></i></h3>
+                    <div>Hi, my name is Lukas. I'm from France. Though I've spent most of my time
+                        there, I've had the chance to live in quite a few countries, namely:
+                        England, China and now Hong-Kong. As you will see in the hobbies
+                        section, I am a big sports fan, an avid reader and incurable gamer.</div>
+                <h3>The Bootcamp    <i class="fas fa-angle-down"></i></h3>
+                    <div>I was working as E-Commerce Assistant Manager for a consumer goods
+                        company. Throughout my job I often worked with developers and tech
+                        teams. Seeing them work really sparked my interested for the world of
+                        programming, and finally decided I that this was something I wanted to
+                        pursue</div>
+                <h3>After Bootcamp    <i class="fas fa-angle-down"></i></h3>
+                <div>By the end of this Bootcamp, I hope to have enough confidence in my skills as a developer in order to continue the journey and begin a new career!</div> 
+                     <h3>Services    <i class="fas fa-angle-down"></i></h3>
+                    <div>Nothing at the moment really. But please have a look at the fake portolio below. You may try to reach me through the contact form, but it doesn't work</div>                 
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Skills and Hobbies Section -->
+    <section id="skills-hobbies">
+        <h1> Skills & Hobbies.</h1>
+        <div class="container-fluid sh-inner">
+        <div class="row skills-row">
+            <div class="col-3"><i class="skill-icons fab fa-html5 fa-5x"></i><h5>HTML</h5></div>
+            <div class="col-3"><i class="skill-icons fab fa-css3 fa-5x"></i><h5>CSS</h5></div>
+            <div class="col-3"><i class="skill-icons fab fa-js-square fa-5x"></i><h5>JavaScript</h5></div>
+            <div class="col-3"><i class="skill-icons fab fa-google fa-5x"></i><h5>Google</h5></div>
+        </div> 
+        <div class="row skills-row">
+            <div class="col-3"><i class="skill-icons fas fa-futbol fa-5x"></i> <h5>Football</h5></div>
+            <div class="col-3"><i class="skill-icons fas fa-gamepad fa-5x"></i><h5>Gaming</h5></div>
+            <div class="col-3"><i class="skill-icons fas fa-book fa-5x"></i><h5>Reading</h5></div>
+            <div class="col-3"><i class="skill-icons fas fa-laptop-code fa-5x"></i><h5>Programming</h5></div>
+        </div> 
+        </div>
+            
+    </section>
+
+    <!-- Quote Section -->
+    <section id="quotes">
+        <div id="quotes-block">
+                <p id="yeezy" class="mb-0"><em>" Wait for your Yeezy Quote "</em></p>
+        </div>
+        <div class="yeezyCites">
+             — Kanye West on <cite title="Source Title">Social Media</cite>
+        </div>
+        
+    </section>
+
+    <!-- Portfolio -->
+
+    <section id="portfolio">  
+        <h1> Portfolio.</h1>
+       <div class="row container-fluid">
+        <div class="portfolio-left col-md-6 col-12 container-fluid">
+            <div data-aos-easing="linear" data-aos-duration="800" data-aos="zoom-in-up" class="project">
+                <video class="myvideo vert" loop muted>
+                    <source src="assets/videos/kimbap.mp4">
+                </video>
+                <p class="pvert">Not My Clothes</p>
+            </div>
+            <div data-aos-easing="linear" data-aos-duration="800" data-aos="zoom-in-up" class="project">
+                <video class="myvideo square" loop muted>
+                    <source src="assets/videos/square1.mp4">
+                </video>
+                <p class="psquare">Not My Food</p>
+            </div>
+    
+        </div>
+    
+        <div class="portfolio-right container-fluid col-md-6 col-sm-12">
+            <div data-aos-easing="linear" data-aos-duration="800" data-aos="zoom-in-up" class="project">
+                <video class="myvideo square" loop muted>
+                    <source src="assets/videos/square2.mp4">
+                </video>
+                <p class="psquare">Not My Art</p>
+            </div>
+            <div data-aos-easing="linear" data-aos-duration="800" data-aos="zoom-in-up" class="project">
+                <video class="myvideo vert" loop muted>
+                    <source src="assets/videos/vert2.mp4">
+                </video>
+                
+                <p class="pvert">Not My Paper Rolls</p>
+            </div>
+    
+        </div>
+       </div>   
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact-me">
+        <h1> Let's Talk.</h1>
+        <div class="contact-me-inner">
+
+          <div class="contact-form">
+            <form>
+                Name: <br>
+                <input type="text" name="name" placeholder="Your Name"><br>
+                Email: <br>
+                <input type="text" name="email" placeholder="Your Email"><br>
+                Your Message: <br>
+                <textarea name="message" placeholder="Your Message"></textarea><br>
+            </form> 
+            <button class="btn btn-dark btn-lg">Submit</button>
+          </div>  
+          
+          <div class="contact-media">
+
+            <i class="fab fa-twitter fa-5x"></i>
+            <i class="fab fa-instagram fa-5x"></i>
+            <i class="fab fa-pinterest fa-5x"></i><br>
+            <i class="fas fa-hashtag fa-3x"><em>Lukaswebdev</em></i>
+           
+            
+          </div>  
+         
+
+        </div>
+        <p class="address">Apt. 9B Somewhere in HK,<br> HK Island, 00000</p>
+    </section>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+    AOS.init();
+  </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
